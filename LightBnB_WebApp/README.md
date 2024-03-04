@@ -1,5 +1,8 @@
 # LightBnB
 
+A simple mulit-page Airbnb clone that uses a server-side Javascript to display the information from queries to web pages via SQL queries. 
+
+
 ## Project Structure
 
 ```
@@ -53,3 +56,19 @@
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+
+## Instructions
+
+- Users can login / register with their email address and password.
+![login images](images/photo_3.png)
+
+- After login, the users can see the lists of properties that they own themselves or they have reservations on.
+![search images](images/photo_1.png)
+
+
+- Users can search up the right properties for themselves by city / price / rate.
+![search images](images/photo_0.png)
+
+
+- Users also can add property with various details. 
+![add images](images/photo_2.png)
